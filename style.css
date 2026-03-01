@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .menu {
@@ -49,9 +50,10 @@
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 100px 60px;
     gap: 50px;
+    background: #f9f9f9;
 }
 
 .hero-text {
@@ -116,6 +118,7 @@
 .services {
     padding: 80px 60px;
     text-align: center;
+    background: #f9f9f9;    
 }
 
 .services h2 {
@@ -180,8 +183,9 @@
 
 .about-content {
     display: flex;
-    align-items: center;
-    gap: 60px;
+    align-self: center;
+    justify-content: space-around;
+    gap: 50px;
     margin-bottom: 60px;
 }
 
@@ -249,6 +253,7 @@
 
 #portfolio {
     padding: 80px 60px;
+    background: #f9f9f9;
 }
 
 .portfolio h2 {
