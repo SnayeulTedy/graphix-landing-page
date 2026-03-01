@@ -373,7 +373,7 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    align-self: flex-start;
+    align-self: center;
 
     &:hover {
         background: black;
