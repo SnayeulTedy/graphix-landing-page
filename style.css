@@ -1,9 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 .menu {
@@ -16,6 +15,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .logo-img {
@@ -29,18 +29,18 @@
     width: auto;
 }
 
-
 .element-menu {
     display: flex;
     gap: 40px;
     list-style: none;
     font-size: 18px;
 
-    a{
+    a {
         text-decoration: none;
         color: #333;
         transition: 0.3s;
-        &:hover{
+
+        &:hover {
             color: rgb(169, 3, 3);
         }
     }
@@ -118,7 +118,7 @@
 .services {
     padding: 80px 60px;
     text-align: center;
-    background: #f9f9f9;    
+    background: #f9f9f9;
 }
 
 .services h2 {
@@ -141,16 +141,16 @@
 
 .service-card {
     background: white;
-    padding: 25px 20px ;
+    padding: 25px 20px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s, box-shadow 0.3s;
     width: 85%;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .service-card img {
@@ -475,7 +475,7 @@ footer {
         flex-direction: column-reverse;
         gap: 30px;
     }
-    
+
     .about-stats {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -485,16 +485,16 @@ footer {
     #propos {
         padding: 60px 20px;
     }
-    
+
     .about h2 {
         font-size: 28px;
         margin-bottom: 30px;
     }
-    
+
     .about-text h3 {
         font-size: 22px;
     }
-    
+
     .about-stats {
         grid-template-columns: 1fr;
     }
@@ -504,35 +504,37 @@ footer {
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-        
+
 }
 
 @media (max-width: 700px) {
     #portfolio {
         padding: 60px 20px;
     }
-    
+
     #contact {
         padding: 60px 20px;
     }
-    
+
     .portfolio h2,
     .contact h2 {
         font-size: 28px;
     }
-    
+
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .portfolio-item img {
         height: 200px;
     }
+
     .contact-form {
         width: 100%;
     }
-    
+
 }
+
 @media (max-width: 900px) {
 
     .menu {
@@ -558,9 +560,11 @@ footer {
         text-align: center;
         padding: 60px 20px;
     }
+
     .hero-image {
         margin-top: 30px;
     }
+
     .buttons {
         justify-content: center;
     }
@@ -580,7 +584,7 @@ footer {
         gap: 30px;
         padding: 0 20px 30px 20px;
     }
-    
+
     .footer-bottom {
         padding: 20px;
     }
